@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Untitled</title>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles1.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="selectmenu">
+
+                <div class="left">
+
+                    <div class="selectLook">
+                        <a href="main.html">Home</a>
+                    </div>
+                    
+                    <div class="selectLook">
+                        <a href="info.html">About</a>
+                    </div>
+                    
+                </div>
+
+                <div class="right">
+
+                    <div class="textLook">
+                        <div>No i fajnie</div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="bigmenu">
+                <div class="itemsLook">
+
+                    <div class="itemLook">
+                        <div class="imgBackground" style="background-image: url(img/1.jpg);"></div>
+                        <div class="imgText">
+                            <div class="imgLogo">
+                                <img src="img/L.png">
+                                <div class="imgSubtitle">XDXDXDXDXD</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="itemLook">
+                        <div class="imgBackground" style="background-image: url(img/2.jpg);"></div>
+                        <div class="imgText">
+                            <div class="imgLogo">
+                                <img src="img/L.png">
+                                <div class="imgSubtitle">XDXDXDXDXD</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="itemLook">
+                        <div class="imgBackground" style="background-image: url(img/3.jpg);"></div>
+                        <div class="imgText">
+                            <div class="imgLogo">
+                                <img src="img/L.png">
+                                <div class="imgSubtitle">XDXDXDXDXD</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="itemLook">
+                        <div class="imgBackground" style="background-image: url(img/4.jpg);"></div>
+                        <div class="imgText">
+                            <div class="imgLogo">
+                                <img src="img/L.png">
+                                <div class="imgSubtitle">XDXDXDXDXD</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="itemLook">
+                        <div class="imgBackground" style="background-image: url(img/5.jpg);"></div>
+                        <div class="imgText">
+                            <div class="imgLogo">
+                                <img src="img/L.png">
+                                <div class="imgSubtitle">XDXDXDXDXD</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="itemLook">
+                        <div class="imgBackground" style="background-image: url(img/6.jpg);"></div>
+                        <div class="imgText">
+                            <div class="imgLogo">
+                                <img src="img/L.png">
+                                <div class="imgSubtitle">XDXDXDXDXD</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </body>
+
+<script>
+    const tileitems = document.querySelectorAll('.itemLook')
+
+    tileitems.forEach(tile => {
+        tile.addEventListener('mouseover', () => {
+            tile.childNodes[1].classList.add('imgDark');
+        })
+
+        tile.addEventListener('mouseout', () => {
+            tile.childNodes[1].classList.remove('imgDark');
+        })
+    })
+</script>
+
+</html>
